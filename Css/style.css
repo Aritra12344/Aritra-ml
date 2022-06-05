@@ -1,0 +1,765 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&family=Nunito&family=Radio+Canada:wght@300;600&family=Work+Sans:wght@600&display=swap');
+
+*{
+ margin: 0;
+ padding:0;
+box-sizing:  border-box;
+font-family: 'Josefin Sans', sans-serif;
+
+}
+.shadow{
+				box-shadow:  2px 2px 7px black;
+}
+.br20{
+				border-radius:  20px;
+}
+.br30{
+				border-radius:   30px;
+}
+.txtwhite{
+				color:   white;
+}
+.green{
+				background-color: #008C65;
+}
+.blue{
+				background-color: #00BCD4;
+}
+.red{
+				background-color: #C26C01;
+}
+.yellow{
+				background-color: ;
+}
+
+#navbar{
+   display: flex;
+   background-color: #041818;
+   height:   75px;
+   
+				
+}
+
+
+
+#navbar ul{
+width:  90%;
+				display:  flex;
+				justify-content: flex-end;
+			
+			 
+}
+
+#navbar ul li {
+				list-style:  none;
+				padding: 30px;
+}
+
+#navbar ul li a{
+			 text-decoration: none;
+			 color:white;
+			 text-align:   center;
+		
+}
+
+
+#navbar div img{
+				margin-top: 6px;
+				height:   80%;
+				width: 60px ;
+				border-radius:30px;
+			margin-left:  20px;
+			margin-right:  20 px;
+}
+
+#navbar p{ 
+				color:  white;
+				margin:  18px ;
+				text-align:  center;
+				text-decoration:   bold;
+				font-size:   20px;
+}
+
+#navbar div{
+				display:   flex;
+				
+			
+}
+
+#about{
+				display: flex;
+				flex-direction:   row;
+				margin-top:   100px;
+				width:   100%;
+}
+
+#about img{
+				width:   90%;
+				
+}
+
+#aboutp{
+			font-size:    22px;
+			vertical-align:   middle;
+}
+
+#about div{
+				width:   100%;
+				text-align:   center;
+}
+
+
+.featurep{
+			 text-align: center;
+			 margin-top: 30px;
+			 font-size:  35px;
+			 font-style:  bold;
+		font-family: 'Radio Canada', sans-serif;
+
+}
+
+#feature{
+				display: flex;
+				flex-direction:   row;
+				width:   100%;
+}
+
+.featurecol{
+				display: flex;
+				flex-direction:   column;
+				padding:   30px;
+				width:   100%;
+		
+				
+}
+
+.featurecol div i{
+				text-align:   center;
+						margin-top:   80px;
+}
+
+.featurecol div{
+				box-shadow:   2px  2px 5px black ;
+				border-radius:30px;
+				height:   200px;
+				text-align:   center;
+			
+			
+}
+
+.featurecol p{
+				text-align:   center;
+				font-size:   22px;
+				font-family: 'Work Sans', sans-serif;
+
+			margin-top:   13px;
+}
+
+
+#contactform{
+				display: flex;
+				flex-direction:   row;
+				box-shadow:   2px 2px 7px black;
+				margin-top:   38px;
+					width:   85%;
+}
+
+.contactform{
+				display:   flex;
+				flex-direction:    column;
+				width:   100%;
+				
+}
+
+.contactform input, textarea, #contactsubmit{
+				width:   80%;
+				margin-top: 36px;
+				font-size:  22px;
+				
+}
+
+#contactform div{
+				margin-left:   40px;
+				width:  100%;
+}
+
+#contactform  img {
+				width:  100%;
+}
+
+
+#name, #email{
+				border:  none;
+				
+				
+}
+
+#contactsubmit{
+				background-color:   #ee6c28;
+				color:  white;
+				border:   none;
+				margin-bottom:   20px;
+}
+
+#contactsubmit:active{
+				background-color:   #ee6c28;
+				color:  white;
+				border:   none;
+				box-shadow:   2px 2px 5px black;
+}
+
+
+
+
+
+#subscribesubmit{
+				background-color:   #ee6c28;
+				color:  white;
+				border:   none;
+}
+
+#subscribesubmit:active{
+				background-color:   #ee6c28;
+				color:  white;
+				border:   none;
+				box-shadow:   2px 2px 5px black;
+}
+
+footer{
+				display: flex ;
+				width:  100%;
+				height: 200px;
+				margin-top:   35px;
+				flex-direction:   row;
+				background-color: #041818;
+}
+
+#subscribe{
+				display: flex;
+				width:  100%;
+			align-items:   center;
+				
+				flex-direction:   column;
+				justify-content:   flex-end;
+				margin-bottom:   50px;
+				
+}
+
+#subscribe  p{
+				text-align:   center;
+				margin-top:   10px;
+				
+}
+
+#links{
+			
+				width:  100%;
+				margin-top:   35px;
+				display:   flex;
+				flex-direction:    row;
+}
+
+#links div{
+				display:   flex;
+				flex-direction:   column;
+				margin-left:   35px;
+				font-size:    18px;
+}
+
+#links div a{
+				text-decoration:   none;
+				margin-top:   13px;
+				color:   white;
+}
+
+
+#subscribe input, #subscribesubmit{
+margin-top:   25px;
+				width:   100%;
+				font-size:    18px;
+				
+				
+}
+
+#copyright{
+				background-color:  #001008;
+				color:   white;
+				text-align:   center;
+				font-size:   24px;
+}
+
+
+.banner{
+  position: relative;
+  text-align: center;
+  color: white;
+  box-shadow:   2px 2px 7px black ;
+}
+
+
+
+.txtofbanner {
+  position: absolute;
+  top: 34%;
+  left: 16px;
+ 
+    
+}
+
+.txtofbanner p {
+				margin-top:   15px;
+				 font-size:   26px;
+				text-shadow:  2px 2px 5px black;
+}
+
+
+.txtofbanner p span{
+				margin-top:   15px;
+				font-size: 38px;
+				 font-family: 'Radio Canada', sans-serif;
+				text-shadow:  2px 2px 5px black;
+}
+
+.txtofbanner button {
+					background-color:   #ee6c28;
+				color:  white;
+				margin-top:   13px;
+				border:   none;
+				box-shadow:   2px 2px 5px black;
+				border-radius: 30px ;
+				width:   200px;
+				height:   47px;
+				font-size:   17px;
+			
+}
+
+.txtofbanner button:active {
+					background-color:   #ee6c28;
+				color:  white;
+				margin-top:   13px;
+				border:   none;
+				box-shadow:   2px 2px 2px black;
+				border-radius: 30px ;
+				width:   200px;
+				height:   47px;
+				font-size:   17px;
+			
+}
+
+#book{
+				display: flex;
+				flex-direction:   row;
+				width:   95%;
+				font-size:   24px;
+}
+
+#book div{
+				margin-left:   36px;
+				text-align:  center;
+				margin-top:   36px;
+				
+}
+
+
+#book img{
+				border-radius:20px;
+				width:  80%;
+				text-align:   center;
+}
+
+#pagesubscribe{
+				display: flex;
+				flex-direction:   row;
+				width:   100%;
+}
+
+
+#pagesubscribe div {
+				width:  100%;
+}
+
+#pagesubscribe input{
+				
+}
+
+
+/*for tablets */
+
+@media(max-width:768px){
+				#navbar{
+   display: flex;
+   background-color: #041818;
+   height:   150px;
+   flex-direction:   column;
+   
+				
+}
+
+
+
+#navbar ul{
+width:  100%;
+				display:  flex;
+				justify-content: flex-end;
+			
+			 
+}
+
+#navbar ul li {
+				list-style:  none;
+				padding: 10px;
+}
+
+#navbar ul li a{
+			 text-decoration: none;
+			 color:white;
+			 font-size:   10px;
+			 
+}
+
+.navimg{
+				display:   flex;
+				flex-direction:    column;
+			
+}
+
+#navbar div img{
+				margin-top: 6px;
+				text-align:   center;
+				justify-content:   center;
+				align-content:   center;
+				margin-left:  0px;
+				width: 40px ;
+				border-radius:30px;
+			
+}
+
+#navbar p{ 
+				color:  white;
+				margin:  18px ;
+				text-align:  center;
+				text-decoration:   bold;
+				font-size:   18px;
+}
+
+#navbar div{
+				display:   flex;
+				
+			
+}
+
+
+#about{
+				display: flex;
+				flex-direction:   column;
+				margin-top:   40px;
+				width:   100%;
+}
+
+#about img{
+				width:   90%;
+				
+}
+
+#aboutp{
+			font-size:    16px;
+			vertical-align:   middle;
+}
+
+#about div{
+				width:   100%;
+				text-align:   center;
+}
+
+
+#banner img{
+				max-width: 100%; 
+}
+
+.featurep{
+			 text-align: center;
+			 margin-top: 34px;
+			 font-size:  20px;
+			 font-style:  bold;
+		font-family: 'Radio Canada', sans-serif;
+
+
+}
+
+#feature{
+				display: flex;
+				flex-direction:   column;
+				width:   100%;
+				align-items: center;
+justify-content: center;
+}
+
+.featurecol{
+				display: flex;
+				flex-direction:   column;
+				padding:   12px;
+				width:   80%;
+
+				
+		
+				
+}
+
+.featurecol div i{
+				text-align:   center;
+			top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+					
+}
+
+.featurecol div{
+				box-shadow:   2px  2px 5px black ;
+				border-radius:20px;
+				height:   190px;
+				width:   100%;
+
+				text-align:   center;
+			
+			
+}
+
+.featurecol p{
+				text-align:   center;
+				font-size:   15px;
+			font-family: 'Work Sans', sans-serif;
+
+
+				margin-top:   13px;
+}
+
+				  
+				  
+#contactform{
+				display: flex;
+				flex-direction:   column;
+				box-shadow:   2px 2px 7px black;
+				margin-top:   38px;
+					width:   85%;
+}
+
+.contactform{
+				display:   flex;
+				flex-direction:    column;
+				width:   100%;
+				
+				
+}
+
+#contactform img{
+				display:   none;
+				width:   0px;
+}
+
+.contactform input, textarea, #contactsubmit{
+				width:   80%;
+				margin-top: 26px;
+				font-size:  16px;
+				
+				
+}
+
+
+textarea{
+				resize:   none;
+}
+
+#contactform div{
+				margin-left:   20px;
+}
+
+
+
+
+#name, #email{
+				border:  none;
+				
+				
+}
+
+#contactsubmit{
+				background-color:   #ee6c28;
+				color:  white;
+				border:   none;
+				margin-bottom:   14px;
+}
+
+#contactsubmit:active{
+				background-color:   #ee6c28;
+				color:  white;
+				border:   none;
+				box-shadow:   2px 2px 5px black;
+}
+
+
+
+#subscribesubmit{
+				background-color:   #ee6c28;
+				color:  white;
+				border:   none;
+}
+
+#subscribesubmit:active{
+				background-color:   #ee6c28;
+				color:  white;
+				border:   none;
+				box-shadow:   2px 2px 5px black;
+}
+
+footer{
+				display: flex ;
+				width:  100%;
+				height: 110px;
+				margin-top:   20px;
+				flex-direction:   row;
+				background-color: #041818;
+}
+
+#subscribe{
+				display: flex;
+				width:  100%;
+			align-items:   center;
+				
+				flex-direction:   column;
+				justify-content:   flex-end;
+				margin-bottom:   20px;
+				
+}
+
+#subp{
+				text-align:   center;
+				margin-top:   10px;
+				font-size:  16;
+				
+}
+
+#links{
+			
+				width:  100%;
+				margin-top:   5px;
+				display:   flex;
+				flex-direction:    row;
+}
+
+#links div{
+				display:   flex;
+				flex-direction:   column;
+				margin-left:   4%;
+				font-size:    5px;
+}
+
+#links div a{
+				text-decoration:   none;
+				margin-top:   13px;
+				color:   white;
+}
+
+
+#subscribe input,#subscribesubmit{
+margin-top:   15px;
+				width:   100%;
+				font-size:    6px;
+				
+				
+}
+
+#copyright{
+				background-color:  #001008;
+				color:   white;
+				text-align:   center;
+				font-size:   13px;
+}
+
+
+
+
+.banner{
+  position: relative;
+  text-align: center;
+  color: white;
+  box-shadow:   2px 2px 7px black ;
+}
+
+
+
+.txtofbanner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+    
+}
+
+.txtofbanner p {
+				margin-top:   5px;
+				 font-size:   15px;
+				text-shadow:  2px 2px 5px black;
+}
+
+
+.txtofbanner p span{
+				margin-top:   15px;
+				font-size: 20px;
+				 font-family: 'Radio Canada', sans-serif;
+				text-shadow:  2px 2px 5px black;
+}
+
+.txtofbanner button {
+					background-color:   #ee6c28;
+				color:  white;
+				margin-top:   13px;
+				border:   none;
+				box-shadow:   2px 2px 7px black;
+				border-radius: 30px ;
+				width:   85px;
+				height:   23px;
+				font-size:   10px;
+			
+}
+
+.txtofbanner button:active {
+					background-color:   #ee6c28;
+				color:  white;
+				margin-top:   13px;
+				border:   none;
+				box-shadow:   2px 2px 5px black;
+				border-radius: 30px ;
+			font-size:   10px;
+			width:   85px;
+				height:   23px;
+}
+
+
+
+
+#book{
+				display: flex;
+				flex-direction:   column;
+				width:   95%;
+				font-size:   18px;
+}
+
+#book div{
+				margin-left:   22px;
+				text-align:  center;
+				margin-top:  22px;
+				
+}
+
+#book img{
+				border-radius:20px;
+}
+
+
+
+
+
+
+}
