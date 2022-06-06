@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="styles/style.css"/>
+        <title>indenjj</title>
+    </head>
+    <body>
+    <h2 id="id"></h2>
+          <h2 id="email"></h2>
+<script src="jquery.min.js"></script>
+    <script src="main.js"></script>
+         <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/7.19.0/firebase-auth.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCchTnseRmYpZhT9bor6IwYkub_b_CL-Gc",
+    authDomain: "log-in-bc98d.firebaseapp.com",
+    projectId: "log-in-bc98d",
+    storageBucket: "log-in-bc98d.appspot.com",
+    messagingSenderId: "337005897714",
+    appId: "1:337005897714:web:4e0403989ce2e76111ad6b",
+    measurementId: "G-37WKYXS487"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+   }
+
+</script>
+    
+<script type="text/javascript">
+var userId=localStorage.getItem('id');
+    var userId=localStorage.getItem('email');
+
+document.getElementById('email').innerHTML=email;
+document.getElementById('id').innerHTML=id;
+});
+
+</script>
+    
+    
+</body>
+</html>
